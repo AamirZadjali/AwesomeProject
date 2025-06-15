@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   }, []); // <-- dependency array to run only once
-
+// new
   return (
     <View>
       <Text>Hello {name}</Text>
